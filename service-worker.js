@@ -1,4 +1,4 @@
-const CACHE_NAME = 'imunisasi-tt-cache-v1.0.3'; // Ubah versi setiap kali Anda memodifikasi aset
+const CACHE_NAME = 'imunisasi-tt-cache-v1.0.4'; // Ubah versi setiap kali Anda memodifikasi aset
 const urlsToCache = [
   // Pastikan jalur ini benar relatif terhadap root aplikasi
   '/', // Meng-cache root URL, yang akan mengarah ke index.html
@@ -78,4 +78,5 @@ self.addEventListener('activate', event => {
   // Ini penting agar Service Worker mengklaim semua klien terbuka segera
   return self.clients.claim();
 });
+
 
