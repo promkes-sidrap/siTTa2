@@ -12,8 +12,8 @@ const urlsToCache = [
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css',
 
   // Folder Ikon Anda
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
 
   // Jika Anda punya file JS lokal terpisah selain yang di HTML
   // Contoh: '/js/script_utama.js',
@@ -78,3 +78,4 @@ self.addEventListener('activate', event => {
   // Ini penting agar Service Worker mengklaim semua klien terbuka segera
   return self.clients.claim();
 });
+
